@@ -2,8 +2,10 @@
 
 #### 1. 프로젝트 생성
 ```bash
-# 프로젝트 생성
-npm init react-app [project-name]
+# 프로젝트 생성 (npm)
+npm init react-app 'Project-Name'
+# 프로젝트 생성 (npx)
+npx create-react-app 'Project-Name'
 
 # 프로젝트 실행
 npm start
