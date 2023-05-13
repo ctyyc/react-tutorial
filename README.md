@@ -89,7 +89,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-				// Link 태그는 랜더링 시 a 태그로 변경됨
+	// Link 태그는 랜더링 시 a 태그로 변경됨
         <Link to="/">Home</Link> | <Link to="/about">About</Link>
       </nav>
       <Routes>
@@ -106,7 +106,7 @@ function App() {
 import React, {useState} from "react";
 
 const Counter = () => {
-		// num은 state 변수, setNumber는 num의 setter 함수, 0은 num의 초기값
+    // num은 state 변수, setNumber는 num의 setter 함수, 0은 num의 초기값
     const [num, setNumber] = useState(0);
 
     const increase = () => {
@@ -128,4 +128,4 @@ const Counter = () => {
 ```
 
 <br>
-참고 : 개발자의 품격 - 한시간 만에 끝내는 React.js 입문 (https://youtu.be/6GECT2Jrr_g)
+참고 : https://youtu.be/6GECT2Jrr_g (개발자의 품격 - 한시간 만에 끝내는 React.js 입문)
